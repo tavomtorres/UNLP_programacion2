@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="olimpiadas.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="olimpiadas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="227"/>
+        <CursorPos X="18" Y="246"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\..\..\Desktop\programas arboles\ProgramaEncomiendas.pas"/>
+        <UnitName Value="encomiendas"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\..\Desktop\programas arboles\ProgramaGenerarLista.pas"/>
+        <UnitName Value="arboles"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="115"/>
+        <CursorPos X="64" Y="90"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\..\GUSTAV~1\AppData\Local\Temp\Rar$DIa10044.49579\ProgramaGenerarLista.pas"/>
+        <UnitName Value="arboles"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="7"/>
+        <CursorPos X="27" Y="102"/>
+        <UsageCount Value="9"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\..\GUSTAV~1\AppData\Local\Temp\Rar$DIa2372.30920\Olimpico.pas"/>
+        <UnitName Value="juegos"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="53"/>
+        <CursorPos X="20" Y="40"/>
+        <UsageCount Value="13"/>
+      </Unit4>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="4" Column="4" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="281" Column="14" TopLine="267"/>
+      </Position2>
+      <Position3>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="235" Column="8" TopLine="211"/>
+      </Position3>
+      <Position4>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="229" Column="22" TopLine="211"/>
+      </Position4>
+      <Position5>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="225" Column="18" TopLine="213"/>
+      </Position5>
+      <Position6>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="231" Column="38" TopLine="209"/>
+      </Position6>
+      <Position7>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="225" Column="1" TopLine="209"/>
+      </Position7>
+      <Position8>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="228" Column="1" TopLine="209"/>
+      </Position8>
+      <Position9>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="231" Column="1" TopLine="209"/>
+      </Position9>
+      <Position10>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="305" Column="51" TopLine="214"/>
+      </Position10>
+      <Position11>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="230" Column="47" TopLine="214"/>
+      </Position11>
+      <Position12>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="227" Column="1" TopLine="214"/>
+      </Position12>
+      <Position13>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="229" Column="1" TopLine="214"/>
+      </Position13>
+      <Position14>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="230" Column="1" TopLine="214"/>
+      </Position14>
+      <Position15>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="227" Column="1" TopLine="214"/>
+      </Position15>
+      <Position16>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="229" Column="1" TopLine="214"/>
+      </Position16>
+      <Position17>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="230" Column="1" TopLine="214"/>
+      </Position17>
+      <Position18>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="227" Column="1" TopLine="214"/>
+      </Position18>
+      <Position19>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="229" Column="1" TopLine="214"/>
+      </Position19>
+      <Position20>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="241" Column="55" TopLine="223"/>
+      </Position20>
+      <Position21>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="227" Column="1" TopLine="221"/>
+      </Position21>
+      <Position22>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="233" Column="1" TopLine="221"/>
+      </Position22>
+      <Position23>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="239" Column="86" TopLine="221"/>
+      </Position23>
+      <Position24>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="247" Column="61" TopLine="223"/>
+      </Position24>
+      <Position25>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="241" Column="13" TopLine="221"/>
+      </Position25>
+      <Position26>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="239" Column="1" TopLine="221"/>
+      </Position26>
+      <Position27>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="240" Column="1" TopLine="221"/>
+      </Position27>
+      <Position28>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="241" Column="1" TopLine="221"/>
+      </Position28>
+      <Position29>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="242" Column="1" TopLine="221"/>
+      </Position29>
+      <Position30>
+        <Filename Value="olimpiadas.lpr"/>
+        <Caret Line="244" Column="1" TopLine="221"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
