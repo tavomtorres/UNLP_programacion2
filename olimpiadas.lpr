@@ -81,7 +81,7 @@ begin
     writeln();
   writeln('2) Imprimir Lista  Olimpiadas');
     writeln();
-  writeln('3) Insertar Registro en la lista Olimpiadas');
+  writeln('3) Insertar Registro MANUALMENTE en la lista Olimpiadas');
 
     writeln();
   writeln('4) Crear un arbol de Olimpiadas');

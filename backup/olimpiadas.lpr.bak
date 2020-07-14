@@ -77,20 +77,20 @@ begin
        writeln('---------------OLIMPIADAS---------------------');
   writeln('0) SALIR.');
     writeln();
-  writeln('1) Armar Lista olimpiadas automatico');
+  writeln('1) Armar Lista Olimpiadas automatico');
     writeln();
-  writeln('2) Imprimir Lista de Olimpiadas');
+  writeln('2) Imprimir Lista  Olimpiadas');
     writeln();
-  writeln('3) Insertar Registro en la lista');
+  writeln('3) Insertar Registro en la lista Olimpiadas');
 
     writeln();
-  writeln('4) Crear un arbol de olimpiadas');
+  writeln('4) Crear un arbol de Olimpiadas');
   writeln();
-  writeln('5) Imprimir arbol olimpiadas (Inorden).');
+  writeln('5) Imprimir Raices arbol Olimpiadas (Inorden).');
   writeln();
-  writeln('6) Imprimir Arbol Por Nodos Inorden');
+  writeln('6) Imprimir Nodos Informativos del Arbol-Olimpiadas Inorden');
     writeln();
-  writeln('7) Imprimir Arbol Por Nodos Pre-orden');
+  writeln('7) Imprimir Nodos Informativos del Arbol-Olimpiadas Pre-orden');
     writeln();
   writeln('9) Informar numero de atletas de disciplinas entre codigo 100 y 200');
   writeln();
