@@ -81,7 +81,7 @@ begin
     writeln();
   writeln('2) Imprimir Lista  Olimpiadas');
     writeln();
-  writeln('3) Insertar Registro en la lista Olimpiadas');
+  writeln('3) Insertar Registro MANUALMENTE en la lista Olimpiadas');
 
     writeln();
   writeln('4) Crear un arbol de Olimpiadas');
@@ -168,7 +168,7 @@ BEGIN
 END;
 
 
-PROCEDURE InsertarEnArbol(var arbol:Arbol_Disciplinas; var lista:Lista_Olim;lista_aux:Lista_Olim);
+PROCEDURE InsertarEnArbol(var arbol:Arbol_Disciplinas; var lista:Lista_Olim;lista_aux:Lista_Olim); {NO SE USA}
 VAR
 
 lista_datos:Lista_Registro; {Lista datos linkeada a Arbol}
@@ -236,7 +236,9 @@ BEGIN
 END;
 
 
-PROCEDURE GenerarArbol(var arbol:Arbol_Disciplinas; var lista:Lista_Olim;lista_aux:Lista_Olim);
+PROCEDURE GenerarArbol(var arbol:Arbol_Disciplinas; var lista:Lista_Olim;lista_aux:Lista_Olim); {NO SE USA}
+VAR
+   contador_atletas,existe:integer;
 BEGIN
           if arbol = nil then
              begin
@@ -258,16 +260,80 @@ BEGIN
 
 END;
 
+
+PROCEDURE GenerarArbol2(var arbol:Arbol_Disciplinas; var lista:Lista_Olim);
+VAR
+lista_datos:Lista_Registro; {Lista datos linkeada a Arbol}
+l_pais,auxPais,auxPais2:Lista_Paises;  {Lista paises linkeada a lista_datos}
+contador_atletas,existe:integer;
+BEGIN
+   if arbol = nil then
+      begin
+        new(arbol);
+        new(lista_datos);
+        new(l_pais);
+
+        arbol^.cod_disciplina:= lista^.CodigoDisci; {asigno el codigo de la disciplina al nodo arbol}
+        arbol^.der:=nil;
+        arbol^.izq:=nil;
+        l_pais:=nil;
+        lista_datos^.nombre_disciplina:=lista^.NombreDisci;
+        lista_datos^.total_participantes:= 1;
+        lista_datos^.paises:=l_pais;
+        lista_datos^.Sig:=nil;
+
+        new (auxPais); {armo el pais}
+        auxPais^.nombre := lista^.PaisAtleta;
+        auxPais^.sig := nil;
+        l_pais:= auxPais; {lo asigno a la lista nueva de pais}
+
+        lista_datos^.paises:=l_pais;{asigno la lista de pais a los datos}
+        arbol^.dato:=lista_datos;  {asigno los datos al nodo arbol}
+     end
+     else if lista^.CodigoDisci = arbol^.cod_disciplina then
+               begin
+                  arbol^.dato^.total_participantes:= arbol^.dato^.total_participantes + 1 ;
+                   existe:= ExistePais(arbol^.dato^.paises,lista^.PaisAtleta); {si devuelve 0 el pais no esta en la lista}
+                   if existe = 0 then
+                      begin
+                          new(auxPais);
+                          auxPais :=arbol^.dato^.paises;
+                          while auxPais^.sig <> nil do
+                            auxPais:= auxPais^.sig;
+
+                          new (auxPais2);
+                          auxPais2^.nombre :=lista^.PaisAtleta;
+                          auxPais2^.sig:= nil;
+                          auxPais^.sig:= auxPais2;
+                      end
+
+               end
+     else if lista^.CodigoDisci < arbol^.cod_disciplina then
+               begin
+                  GenerarArbol2(arbol^.izq,lista)
+               end
+     else if lista^.CodigoDisci > arbol^.cod_disciplina then
+               begin
+                  GenerarArbol2(arbol^.der,lista)
+               end
+
+
+END;
+
+
+
+
+
+
+
+
 PROCEDURE RecorreLista_GeneraArbol(var arbol:Arbol_Disciplinas;lista:Lista_Olim);
 VAR
    elem,anterior:integer;
-   lista_aux:Lista_Olim;
 BEGIN
-  new(lista_aux);
-   lista_aux:= lista;
           while lista <> nil do
                begin
-                  GenerarArbol(arbol,lista,lista_aux);
+                  GenerarArbol2(arbol,lista);
                   lista:=lista^.sig;
                end;
 
@@ -539,6 +605,8 @@ end;
 {BUESQUEDA OLIMPIADAS:
 b)Informar la cantidad de atletas de las disciplinas cuyo código se encuentre entre 100 y 200.}
 
+{Hace falta hacer un Menu ImprimirAtletasMinMax para informar la variable contador_p y no tener esos writeln adentro}
+
 PROCEDURE ImprimirAtletasMinMax(arbol:Arbol_Disciplinas; var contador_p:integer);
 VAR
    min,max,elem:integer;
@@ -594,6 +662,7 @@ PROCEDURE recorridoinorden(arbol:tipoarbol);   {Inorden, se imprimeel subarbol i
      END;
 
 BEGIN
+
     crt.WindMaxY := 500;
   repeat
     writeln(' ,presione tecla para continuar...');

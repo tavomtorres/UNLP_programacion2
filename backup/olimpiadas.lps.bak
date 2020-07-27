@@ -12,9 +12,9 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="161"/>
-        <CursorPos X="15" Y="172"/>
-        <UsageCount Value="56"/>
+        <TopLine Value="295"/>
+        <CursorPos X="59" Y="315"/>
+        <UsageCount Value="82"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -23,7 +23,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="4"/>
       </Unit1>
       <Unit2>
         <Filename Value="..\..\..\..\Desktop\programas arboles\ProgramaGenerarLista.pas"/>
@@ -31,7 +31,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="115"/>
         <CursorPos X="64" Y="90"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="5"/>
       </Unit2>
       <Unit3>
         <Filename Value="..\..\..\..\..\GUSTAV~1\AppData\Local\Temp\Rar$DIa10044.49579\ProgramaGenerarLista.pas"/>
@@ -39,7 +39,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="7"/>
         <CursorPos X="27" Y="102"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="4"/>
       </Unit3>
       <Unit4>
         <Filename Value="..\..\..\..\..\GUSTAV~1\AppData\Local\Temp\Rar$DIa2372.30920\Olimpico.pas"/>
@@ -47,7 +47,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="53"/>
         <CursorPos X="20" Y="40"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="8"/>
       </Unit4>
       <Unit5>
         <Filename Value="..\..\..\..\..\GUSTAV~1\AppData\Local\Temp\Rar$DIa11812.20296\Olimpico.pas"/>
@@ -55,7 +55,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="66"/>
         <CursorPos X="12" Y="78"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="5"/>
       </Unit5>
     </Units>
     <General>
@@ -64,124 +64,310 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="178" Column="1" TopLine="163"/>
+        <Caret Line="325" Column="1" TopLine="292"/>
       </Position1>
       <Position2>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="180" Column="1" TopLine="163"/>
+        <Caret Line="369" Column="1" TopLine="349"/>
       </Position2>
       <Position3>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="182" Column="1" TopLine="163"/>
+        <Caret Line="368" Column="1" TopLine="349"/>
       </Position3>
       <Position4>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="183" Column="1" TopLine="163"/>
+        <Caret Line="270" Column="1" TopLine="250"/>
       </Position4>
       <Position5>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="180" Column="1" TopLine="163"/>
+        <Caret Line="312" Column="1" TopLine="292"/>
       </Position5>
       <Position6>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="190" Column="1" TopLine="163"/>
+        <Caret Line="340" Column="1" TopLine="320"/>
       </Position6>
       <Position7>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="195" Column="1" TopLine="168"/>
+        <Caret Line="342" Column="1" TopLine="320"/>
       </Position7>
       <Position8>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="199" Column="1" TopLine="172"/>
+        <Caret Line="270" Column="1" TopLine="250"/>
       </Position8>
       <Position9>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="178" Column="1" TopLine="172"/>
+        <Caret Line="312" Column="1" TopLine="292"/>
       </Position9>
       <Position10>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="180" Column="1" TopLine="172"/>
+        <Caret Line="340" Column="1" TopLine="320"/>
       </Position10>
       <Position11>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="182" Column="1" TopLine="172"/>
+        <Caret Line="344" Column="1" TopLine="320"/>
       </Position11>
       <Position12>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="183" Column="1" TopLine="172"/>
+        <Caret Line="346" Column="1" TopLine="320"/>
       </Position12>
       <Position13>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="180" Column="1" TopLine="172"/>
+        <Caret Line="270" Column="1" TopLine="250"/>
       </Position13>
       <Position14>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="190" Column="1" TopLine="172"/>
+        <Caret Line="312" Column="1" TopLine="292"/>
       </Position14>
       <Position15>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="195" Column="1" TopLine="172"/>
+        <Caret Line="340" Column="1" TopLine="320"/>
       </Position15>
       <Position16>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="199" Column="1" TopLine="172"/>
+        <Caret Line="344" Column="1" TopLine="320"/>
       </Position16>
       <Position17>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="178" Column="1" TopLine="172"/>
+        <Caret Line="346" Column="1" TopLine="320"/>
       </Position17>
       <Position18>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="180" Column="1" TopLine="172"/>
+        <Caret Line="270" Column="1" TopLine="250"/>
       </Position18>
       <Position19>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="182" Column="1" TopLine="172"/>
+        <Caret Line="276" Column="1" TopLine="250"/>
       </Position19>
       <Position20>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="183" Column="1" TopLine="172"/>
+        <Caret Line="280" Column="1" TopLine="250"/>
       </Position20>
       <Position21>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="180" Column="1" TopLine="172"/>
+        <Caret Line="281" Column="1" TopLine="250"/>
       </Position21>
       <Position22>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="190" Column="1" TopLine="172"/>
+        <Caret Line="282" Column="1" TopLine="250"/>
       </Position22>
       <Position23>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="195" Column="1" TopLine="172"/>
+        <Caret Line="283" Column="1" TopLine="250"/>
       </Position23>
       <Position24>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="199" Column="1" TopLine="172"/>
+        <Caret Line="285" Column="1" TopLine="264"/>
       </Position24>
       <Position25>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="178" Column="1" TopLine="172"/>
+        <Caret Line="287" Column="1" TopLine="264"/>
       </Position25>
       <Position26>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="180" Column="1" TopLine="172"/>
+        <Caret Line="288" Column="1" TopLine="264"/>
       </Position26>
       <Position27>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="182" Column="1" TopLine="172"/>
+        <Caret Line="289" Column="1" TopLine="264"/>
       </Position27>
       <Position28>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="183" Column="1" TopLine="172"/>
+        <Caret Line="290" Column="1" TopLine="264"/>
       </Position28>
       <Position29>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="190" Column="1" TopLine="172"/>
+        <Caret Line="309" Column="1" TopLine="289"/>
       </Position29>
       <Position30>
         <Filename Value="olimpiadas.lpr"/>
-        <Caret Line="195" Column="1" TopLine="172"/>
+        <Caret Line="310" Column="1" TopLine="289"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="26">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="270"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="358"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="359"/>
+      </Item3>
+      <Item4>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="276"/>
+      </Item4>
+      <Item5>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="280"/>
+      </Item5>
+      <Item6>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="281"/>
+      </Item6>
+      <Item7>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="282"/>
+      </Item7>
+      <Item8>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="283"/>
+      </Item8>
+      <Item9>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="330"/>
+      </Item9>
+      <Item10>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="332"/>
+      </Item10>
+      <Item11>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="336"/>
+      </Item11>
+      <Item12>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="334"/>
+      </Item12>
+      <Item13>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="285"/>
+      </Item13>
+      <Item14>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="290"/>
+      </Item14>
+      <Item15>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="295"/>
+      </Item15>
+      <Item16>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="294"/>
+      </Item16>
+      <Item17>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="297"/>
+      </Item17>
+      <Item18>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="299"/>
+      </Item18>
+      <Item19>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="302"/>
+      </Item19>
+      <Item20>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="304"/>
+      </Item20>
+      <Item21>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="305"/>
+      </Item21>
+      <Item22>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="287"/>
+      </Item22>
+      <Item23>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="288"/>
+      </Item23>
+      <Item24>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="289"/>
+      </Item24>
+      <Item25>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="315"/>
+      </Item25>
+      <Item26>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="olimpiadas.lpr"/>
+        <Line Value="312"/>
+      </Item26>
+    </BreakPoints>
+  </Debugging>
 </CONFIG>
